@@ -101,6 +101,17 @@
                 </div>
                 <div class="card-body">
                   <form id="myForm" action="#" method="POST">
+                    <div class="row grid-row">
+                      <div class="col-sm-3">
+                        <label><b>Nomor Antrian :</b></label>
+                      </div>
+                      <div class="col-sm-4">
+                        <input type="text" id="no_antrian" name="no_antrian">
+                      </div>
+                      <div class="col-sm-3">
+                        <p id="alert_plasa"></p>
+                      </div>
+                    </div>
                       <div class="row grid-row">
                         <div class="col-sm-3">
                           <label>Plasa Telkom :</label>
@@ -936,6 +947,25 @@
                 $("#dataprofile_bagF").hide();
                 $("#dataprofile_bagG").show();
               });
+
+
+              var plasa = ['PLASA TELKOM PONTIANAK','PLASA TELKOM SINGKAWANG','PLASA TELKOM PEMANGKAT','PLASA TELKOM SAMBAS',
+                'PLASA TELKOM BENGKAYANG','PLASA TELKOM NGABANG','PLASA TELKOM BALAIKARANGAN','PLASA TELKOM SANGGAU',
+                'PLASA TELKOM SINTANG','PLASA TELKOM NANGAPINOH','PLASA TELKOM KETAPANG','PLASA TELKOM MEMPAWAH','PLASA TELKOM BANJARMASIN',
+                'PLASA TELKOM BANJARBARU','PLASA TELKOM BATULICIN','PLASA TELKOM KOTABARU','PLASA TELKOM PELAIHARI','PLASA TELKOM SATUI',
+                'PLASA TELKOM TANJUNG TABALONG','PLASA TELKOM AMUNTAI','PLASA TELKOM BARABAI','PLASA TELKOM KANDANGAN','PLASA TELKOM RANTAU',
+                'PLASA TELKOM PALANGKARAYA','PLASA TELKOM SAMARINDA','PLASA TELKOM PANGKALAN BUN','PLASA TELKOM MUARA TEWEH',
+                'PLASA TELKOM KUALA KAPUAS','PLASA TELKOM SAMPIT','PLASA TELKOM TANAH GROGOT','PLASA TELKOM PENAJAM',
+                'PLASA TELKOM MUARA JAWA','PLASA TELKOM BERAU','PLASA TELKOM TJ. SELOR','PLASA TELKOM TARAKAN','PLASA TELKOM NUNUKAN',
+                'PLASA TELKOM MALINAU','PLASA TELKOM BONTANG','PLASA TELKOM BALIKPAPAN','PLASA TANJUNG REDEP'
+              ];
+
+              $("#plasa").on("input",function(){
+                  var input = $(this).val();
+                  if(plasa.include(input)){ $("#alert_plasa").empty(); $("#alert_plasa").append(`Plasa Terdeteksi`);  }
+                  else { $("#alert_plasa").empty(); $("#alert_plasa").append(`Plasa Tidak Terdeteksi`); }
+              });
+
 
               $("#btnLanjut").click(function() {
                     modal.style.display = "block";
