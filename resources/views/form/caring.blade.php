@@ -273,6 +273,10 @@
                                   <input type="radio" id="data_profile6" name="data_profile" value="profile6">
                                   <label>F. Tidak ada yang menggunakan</label>
                                 </div>
+                                <div class="col-sm-6">
+                                  <input type="radio" id="data_profile7" name="data_profile" value="profile7">
+                                  <label>G. Alasan lain</label>
+                                </div>
                               </div>
                               <br>
                               <div class="row">
@@ -756,6 +760,30 @@
                                       </div>
                                     </div>
                                   </div>
+                                  <br>
+                                  <div id="dataprofile_bagG">
+                                    <b>Profile G</b><br><br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>1. Alasan keinginan cabut :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <textarea cols="50" rows="5" id="profile_G_1" name="profile_G_1"></textarea>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <div class="row-md">
+                                    <div class="row-sm-8">
+                                      <label>2. Harapan untuk tetap berlangganan :</label>
+                                    </div>
+                                    <div class="row-sm-9">
+                                      <div class="col-sm">
+                                        <textarea cols="50" rows="5" id="profile_G_2" name="profile_G_2"></textarea>
+                                      </div>
+                                    </div>
+                                </div>
                                 </div>
                               </div>
                             </div>
@@ -836,12 +864,14 @@
           $("#dataprofile_bagD").hide();
           $("#dataprofile_bagE").hide();
           $("#dataprofile_bagF").hide();
+          $("#dataprofile_bagG").hide();
           $("#data_profile1").prop("checked",false);
           $("#data_profile2").prop("checked",false);
           $("#data_profile3").prop("checked",false);
           $("#data_profile4").prop("checked",false);
           $("#data_profile5").prop("checked",false);
           $("#data_profile6").prop("checked",false);
+          $("#data_profile7").prop("checked",false);
 
               $("#data_profile1").click(function () {
                 $("#dataprofile_bagA").show();
@@ -850,6 +880,7 @@
                 $("#dataprofile_bagD").hide();
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").hide();
               });
               $("#data_profile2").click(function () {
                 $("#dataprofile_bagA").hide();
@@ -858,6 +889,7 @@
                 $("#dataprofile_bagD").hide();
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").hide();
               });
               $("#data_profile3").click(function () {
                 $("#dataprofile_bagA").hide();
@@ -866,6 +898,7 @@
                 $("#dataprofile_bagD").hide();
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").hide();
               });
               $("#data_profile4").click(function () {
                 $("#dataprofile_bagA").hide();
@@ -874,6 +907,7 @@
                 $("#dataprofile_bagD").show();
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").hide();
               });
               $("#data_profile5").click(function () {
                 $("#dataprofile_bagA").hide();
@@ -882,6 +916,7 @@
                 $("#dataprofile_bagD").hide();
                 $("#dataprofile_bagE").show();
                 $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").hide();
               });
               $("#data_profile6").click(function () {
                 $("#dataprofile_bagA").hide();
@@ -890,6 +925,16 @@
                 $("#dataprofile_bagD").hide();
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").show();
+                $("#dataprofile_bagG").hide();
+              });
+              $("#data_profile7").click(function () {
+                $("#dataprofile_bagA").hide();
+                $("#dataprofile_bagB").hide();
+                $("#dataprofile_bagC").hide();
+                $("#dataprofile_bagD").hide();
+                $("#dataprofile_bagE").hide();
+                $("#dataprofile_bagF").hide();
+                $("#dataprofile_bagG").show();
               });
 
               $("#btnLanjut").click(function() {
