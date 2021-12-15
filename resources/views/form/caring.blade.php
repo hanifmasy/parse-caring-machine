@@ -17,22 +17,32 @@
         		padding: 10px;
         		margin: 5px 0;
         	}
-          /* The Modal (background) */
           .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            padding-top: 40px; /* Location of the box */
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 40px;
             left: 0;
             top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4)
           }
-
-          /* Modal Content */
+          .alert_modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 15em;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+          }
           .modal-content {
             background-color: #fefefe;
             margin: auto;
@@ -40,18 +50,26 @@
             border: 1px solid #888;
             width: 80%;
           }
-
-          /* The Close Button */
-          .close {
+          .modal-content-alert {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 5px;
+            border: 1px solid #888;
+            width: 30%;
+            height: 15%;
+          }
+          .close,
+          .alert-close {
             color: #aaaaaa;
             float: right;
             font-size: 28px;
             font-weight: bold;
             padding-bottom: 20px;
           }
-
           .close:hover,
-          .close:focus {
+          .close:focus,
+          .alert-close:hover,
+          .alert-close:focus {
             color: #000;
             text-decoration: none;
             cursor: pointer;
@@ -82,20 +100,20 @@
                   </div>
                 </div>
                 <div class="card-body">
-                  <form action="#" method="POST">
+                  <form id="myForm" action="#" method="POST">
                       <div class="row grid-row">
-                        <div class="col-3">
+                        <div class="col-sm-3">
                           <label>Plasa Telkom :</label>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                           <input type="text" id="plasa" name="plasa">
                         </div>
                       </div>
                       <div class="row grid-row">
-                        <div class="col-3">
+                        <div class="col-sm-3">
                           <label>Witel :</label>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                           <input type="text" id="witel" name="witel">
                         </div>
                       </div>
@@ -269,11 +287,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_A_1" name="profile_A_1" value="jawab1">
-                                          <label>1-3 kali</label>
+                                          <label>1-3 kali</label><br>
                                           <input type="radio" id="profile_A_1" name="profile_A_1" value="jawab2">
-                                          <label>4-6 kali</label>
+                                          <label>4-6 kali</label><br>
                                           <input type="radio" id="profile_A_1" name="profile_A_1" value="jawab3">
-                                          <label>7-10 kali</label>
+                                          <label>7-10 kali</label><br>
                                           <input type="radio" id="profile_A_1" name="profile_A_1" value="jawab4">
                                           <label>Lebih dari 10</label>
                                         </div>
@@ -287,11 +305,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_A_2" name="profile_A_2" value="jawab1">
-                                          <label>1-7 hari lalu</label>
+                                          <label>1-7 hari lalu</label><br>
                                           <input type="radio" id="profile_A_2" name="profile_A_2" value="jawab2">
-                                          <label>8-15 hari lalu</label>
+                                          <label>8-15 hari lalu</label><br>
                                           <input type="radio" id="profile_A_2" name="profile_A_2" value="jawab3">
-                                          <label>16-30 hari lalu</label>
+                                          <label>16-30 hari lalu</label><br>
                                           <input type="radio" id="profile_A_2" name="profile_A_2" value="jawab4">
                                           <label>Lebih dari sebulan lalu</label>
                                         </div>
@@ -305,20 +323,19 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab1">
-                                          <label>Aplikasi myIndiHome</label>
+                                          <label>Aplikasi myIndiHome</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab2">
-                                          <label>Call Center 147</label>
+                                          <label>Call Center 147</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab3">
-                                          <label>Plasa Telkom</label>
-                                          <br>
+                                          <label>Plasa Telkom</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab4">
-                                          <label>Sosial media @indihomecare</label>
+                                          <label>Sosial media @indihomecare</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab5">
-                                          <label>Teknisi</label>
+                                          <label>Teknisi</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab6">
-                                          <label>Sales</label>
+                                          <label>Sales</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab7">
-                                          <label>Teman</label>
+                                          <label>Teman</label><br>
                                           <input type="radio" id="profile_A_3" name="profile_A_3" value="jawab8">
                                           <label>WhatsApp</label>
                                         </div>
@@ -332,11 +349,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_A_4" name="profile_A_4" value="jawab1">
-                                          <label>1-3 orang</label>
+                                          <label>1-3 orang</label><br>
                                           <input type="radio" id="profile_A_4" name="profile_A_4" value="jawab2">
-                                          <label>4-6 orang</label>
+                                          <label>4-6 orang</label><br>
                                           <input type="radio" id="profile_A_4" name="profile_A_4" value="jawab3">
-                                          <label>7-10 orang</label>
+                                          <label>7-10 orang</label><br>
                                           <input type="radio" id="profile_A_4" name="profile_A_4" value="jawab4">
                                           <label>Lebih dari 10 orang</label>
                                         </div>
@@ -350,11 +367,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_A_5" name="profile_A_5" value="jawab1">
-                                          <label>1-3 perangkat</label>
+                                          <label>1-3 perangkat</label><br>
                                           <input type="radio" id="profile_A_5" name="profile_A_5" value="jawab2">
-                                          <label>4-6 perangkat</label>
+                                          <label>4-6 perangkat</label><br>
                                           <input type="radio" id="profile_A_5" name="profile_A_5" value="jawab3">
-                                          <label>7-10 perangkat</label>
+                                          <label>7-10 perangkat</label><br>
                                           <input type="radio" id="profile_A_5" name="profile_A_5" value="jawab4">
                                           <label>Lebih dari 10 perangkat</label>
                                         </div>
@@ -368,23 +385,23 @@
                                       <div class="row-sm">
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_A_6" name="profile_A_6" value="jawab1">
-                                          <label>Paket data HP</label>
+                                          <label>Paket data HP</label><br>
                                           <input style="margin-left:5px" type="radio" id="profile_A_6" name="profile_A_6" value="jawab2">
-                                          <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt="">
+                                          <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_A_6" name="profile_A_6" value="jawab3">
-                                          <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt="">
+                                          <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_A_6" name="profile_A_6" value="jawab4">
-                                          <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt="">
+                                          <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_A_6" name="profile_A_6" value="jawab5">
-                                          <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt="">
+                                          <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_A_6" name="profile_A_6" value="jawab6">
-                                          <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt="">
+                                          <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_A_6" name="profile_A_6" value="jawab7">
-                                          <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt="">
+                                          <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-5">
                                           <input type="radio" id="profile_A_6" name="profile_A_6" value="jawab8">
@@ -403,13 +420,13 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_B_1" name="profile_B_1" value="jawab1">
-                                          <label>100-150 ribu</label>
+                                          <label>100-150 ribu</label><br>
                                           <input type="radio" id="profile_B_1" name="profile_B_1" value="jawab2">
-                                          <label>150-250 ribu</label>
+                                          <label>150-250 ribu</label><br>
                                           <input type="radio" id="profile_B_1" name="profile_B_1" value="jawab3">
-                                          <label>250-400 ribu</label>
+                                          <label>250-400 ribu</label><br>
                                           <input type="radio" id="profile_B_1" name="profile_B_1" value="jawab4">
-                                          <label>400-700 ribu</label>
+                                          <label>400-700 ribu</label><br>
                                           <input type="radio" id="profile_B_1" name="profile_B_1" value="jawab5">
                                           <label>700-1.500 ribu</label>
                                         </div>
@@ -423,15 +440,15 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab1">
-                                          <label>10M</label>
+                                          <label>10M</label><br>
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab2">
-                                          <label>20M</label>
+                                          <label>20M</label><br>
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab3">
-                                          <label>30M</label>
+                                          <label>30M</label><br>
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab4">
-                                          <label>40M</label>
+                                          <label>40M</label><br>
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab5">
-                                          <label>50M</label>
+                                          <label>50M</label><br>
                                           <input type="radio" id="profile_B_2" name="profile_B_2" value="jawab6">
                                           <label>100M</label>
                                         </div>
@@ -445,11 +462,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_B_3" name="profile_B_3" value="jawab1">
-                                          <label>1-3 orang</label>
+                                          <label>1-3 orang</label><br>
                                           <input type="radio" id="profile_B_3" name="profile_B_3" value="jawab2">
-                                          <label>4-6 orang</label>
+                                          <label>4-6 orang</label><br>
                                           <input type="radio" id="profile_B_3" name="profile_B_3" value="jawab3">
-                                          <label>7-10 orang</label>
+                                          <label>7-10 orang</label><br>
                                           <input type="radio" id="profile_B_3" name="profile_B_3" value="jawab4">
                                           <label>Lebih dari 10 orang</label>
                                         </div>
@@ -463,11 +480,11 @@
                                       <div class="row-sm-9">
                                         <div class="col-sm">
                                           <input type="radio" id="profile_B_4" name="profile_B_4" value="jawab1">
-                                          <label>1-3 perangkat</label>
+                                          <label>1-3 perangkat</label><br>
                                           <input type="radio" id="profile_B_4" name="profile_B_4" value="jawab2">
-                                          <label>4-6 perangkat</label>
+                                          <label>4-6 perangkat</label><br>
                                           <input type="radio" id="profile_B_4" name="profile_B_4" value="jawab3">
-                                          <label>7-10 perangkat</label>
+                                          <label>7-10 perangkat</label><br>
                                           <input type="radio" id="profile_B_4" name="profile_B_4" value="jawab4">
                                           <label>Lebih dari 10 perangkat</label>
                                         </div>
@@ -481,23 +498,23 @@
                                       <div class="row-sm">
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_B_5" name="profile_B_5" value="jawab1">
-                                          <label>Paket data HP</label>
+                                          <label>Paket data HP</label><br>
                                           <input style="margin-left:5px" type="radio" id="profile_B_5" name="profile_B_5" value="jawab2">
-                                          <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt="">
+                                          <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_B_5" name="profile_B_5" value="jawab3">
-                                          <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt="">
+                                          <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_B_5" name="profile_B_5" value="jawab4">
-                                          <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt="">
+                                          <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_B_5" name="profile_B_5" value="jawab5">
-                                          <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt="">
+                                          <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt=""><br>
                                           <input style="margin-left:5px" type="radio" id="profile_B_5" name="profile_B_5" value="jawab6">
-                                          <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt="">
+                                          <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-8">
                                           <input type="radio" id="profile_B_5" name="profile_B_5" value="jawab7">
-                                          <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt="">
+                                          <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt=""><br>
                                         </div>
                                         <div class="col-sm-5">
                                           <input type="radio" id="profile_B_5" name="profile_B_5" value="jawab8">
@@ -516,11 +533,11 @@
                                      <div class="row-sm-9">
                                        <div class="col-sm">
                                          <input type="radio" id="profile_C_1" name="profile_C_1" value="jawab1">
-                                         <label>Rumah Baru</label>
+                                         <label>Rumah Baru</label><br>
                                          <input type="radio" id="profile_C_1" name="profile_C_1" value="jawab2">
-                                         <label>Kontrakan Habis</label>
+                                         <label>Kontrakan Habis</label><br>
                                          <input type="radio" id="profile_C_1" name="profile_C_1" value="jawab3">
-                                         <label>Pindah Kerja/Tugas</label>
+                                         <label>Pindah Kerja/Tugas</label><br>
                                          <input type="radio" id="profile_C_1" name="profile_C_1" value="jawab4">
                                          <label>Pulang Kampung</label>
                                        </div>
@@ -541,23 +558,23 @@
                                      <div class="row-sm">
                                        <div class="col-sm-8">
                                          <input style="margin-left:5px" type="radio" id="profile_C_3" name="profile_C_3" value="jawab1">
-                                         <img width="100" height="30" src="{{ asset('public/img/indihome_logo.png') }}" alt="">
+                                         <img width="100" height="30" src="{{ asset('public/img/indihome_logo.png') }}" alt=""><br>
                                          <input style="margin-left:5px" type="radio" id="profile_C_3" name="profile_C_3" value="jawab2">
-                                         <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt="">
+                                         <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt=""><br>
                                          <input style="margin-left:5px" type="radio" id="profile_C_3" name="profile_C_3" value="jawab3">
-                                         <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt="">
+                                         <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt=""><br>
                                        </div>
                                        <div class="col-sm-8">
                                          <input type="radio" id="profile_C_3" name="profile_C_3" value="jawab4">
-                                         <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt="">
+                                         <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt=""><br>
                                          <input style="margin-left:5px" type="radio" id="profile_C_3" name="profile_C_3" value="jawab5">
-                                         <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt="">
+                                         <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt=""><br>
                                          <input style="margin-left:5px" type="radio" id="profile_C_3" name="profile_C_3" value="jawab6">
-                                         <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt="">
+                                         <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt=""><br>
                                        </div>
                                        <div class="col-sm-8">
                                          <input type="radio" id="profile_C_3" name="profile_C_3" value="jawab7">
-                                         <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt="">
+                                         <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt=""><br>
                                          <input type="radio" id="profile_C_3" name="profile_C_3" value="jawab8">
                                          <label>Paket data HP</label>
                                        </div>
@@ -565,23 +582,177 @@
                                    </div>
                                   </div>
                                   <div id="dataprofile_bagD">
-                                    <div class="row-sm">
-                                      <div class="col-sm">
-                                        <h6>Bagian D</h6>
+                                    <b>Profile D</b><br><br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>1. Operator yang digunakan :</label>
+                                      </div>
+                                      <div class="row-sm">
+                                        <div class="col-sm-8">
+                                          <input type="radio" id="profile_D_1" name="profile_D_1" value="jawab1">
+                                          <label>Paket data HP</label><br>
+                                          <input style="margin-left:5px" type="radio" id="profile_D_1" name="profile_D_1" value="jawab2">
+                                          <img width="100" height="50" src="{{ asset('public/img/iconnet_logo.jpeg') }}" alt=""><br>
+                                          <input style="margin-left:5px" type="radio" id="profile_D_1" name="profile_D_1" value="jawab3">
+                                          <img width="100" height="25" src="{{ asset('public/img/mncplay_logo.png') }}" alt=""><br>
+                                        </div>
+                                        <div class="col-sm-8">
+                                          <input type="radio" id="profile_D_1" name="profile_D_1" value="jawab4">
+                                          <img width="100" height="50" src="{{ asset('public/img/xlhome_logo.png') }}" alt=""><br>
+                                          <input style="margin-left:5px" type="radio" id="profile_D_1" name="profile_D_1" value="jawab5">
+                                          <img width="100" height="40" src="{{ asset('public/img/biznet_logo.png') }}" alt=""><br>
+                                          <input style="margin-left:5px" type="radio" id="profile_D_1" name="profile_D_1" value="jawab6">
+                                          <img width="100" height="20" src="{{ asset('public/img/myrepublic_logo.png') }}" alt=""><br>
+                                        </div>
+                                        <div class="col-sm-8">
+                                          <input type="radio" id="profile_D_1" name="profile_D_1" value="jawab7">
+                                          <img width="80" height="30" src="{{ asset('public/img/firstmedia_logo.png') }}" alt=""><br>
+                                        </div>
+                                        <div class="col-sm-5">
+                                          <input type="radio" id="profile_A_6" name="profile_A_6" value="jawab8">
+                                          <label>Lainnya :</label>
+                                          <input type="text" id="profile_A_6_lainnya" name="profile_A_6_lainnya">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>2. Paket operator yang digunakan :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_D_2" name="profile_D_2" value="jawab1">
+                                          <label>100-150 ribu</label><br>
+                                          <input type="radio" id="profile_D_2" name="profile_D_2" value="jawab2">
+                                          <label>150-250 ribu</label><br>
+                                          <input type="radio" id="profile_D_2" name="profile_D_2" value="jawab3">
+                                          <label>250-400 ribu</label><br>
+                                          <input type="radio" id="profile_D_2" name="profile_D_2" value="jawab4">
+                                          <label>400-700 ribu</label><br>
+                                          <input type="radio" id="profile_D_2" name="profile_D_2" value="jawab5">
+                                          <label>700-1.500 ribu</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>3. Alasan pindah operator :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_D_3" name="profile_D_3" value="jawab1">
+                                          <label>Lebih murah</label><br>
+                                          <input type="radio" id="profile_D_3" name="profile_D_3" value="jawab2">
+                                          <label>Lebih cepat</label><br>
+                                          <input type="radio" id="profile_D_3" name="profile_D_3" value="jawab3">
+                                          <label>Lebih stabil / jarang gangguan</label><br>
+                                          <input type="radio" id="profile_D_3" name="profile_D_3" value="jawab4">
+                                          <label>Petugas lebih memuaskan & berkompeten</label><br>
+                                          <input type="radio" id="profile_D_3" name="profile_D_3" value="jawab5">
+                                          <label>Fitur layanan lebih lengkap</label>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
                                   <div id="dataprofile_bagE">
-                                    <div class="row-sm">
-                                      <div class="col-sm">
-                                        <h6>Bagian E</h6>
+                                    <b>Profile E</b><br><br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>1. Jenis musibah :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_E_1" name="profile_E_1" value="jawab1">
+                                          <label>Meninggal dunia</label><br>
+                                          <input type="radio" id="profile_E_1" name="profile_E_1" value="jawab2">
+                                          <label>Bencana alam</label><br>
+                                          <input type="radio" id="profile_E_1" name="profile_E_1" value="jawab3">
+                                          <label>Kebakaran</label><br>
+                                          <input type="radio" id="profile_E_1" name="profile_E_1" value="jawab4">
+                                          <label>Kehilangan penghasilan</label><br>
+                                          <input type="radio" id="profile_E_1" name="profile_E_1" value="jawab5">
+                                          <label>Mengganggu kehidupan, pelajaran / kecanduan internet</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>2. Sebelumnya, berapa jumlah orang yang biasa menggunakan indihome :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_E_2" name="profile_E_2" value="jawab1">
+                                          <label>1-3 orang</label><br>
+                                          <input type="radio" id="profile_E_2" name="profile_E_2" value="jawab2">
+                                          <label>4-6 orang</label><br>
+                                          <input type="radio" id="profile_E_2" name="profile_E_2" value="jawab3">
+                                          <label>7-10 orang</label><br>
+                                          <input type="radio" id="profile_E_2" name="profile_E_2" value="jawab4">
+                                          <label>Lebih dari 10 orang</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>3. Sebelumnya, berapa jumlah perangkat / gadget yang terhubung ke indihome :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_E_3" name="profile_E_3" value="jawab1">
+                                          <label>1-3 perangkat</label><br>
+                                          <input type="radio" id="profile_E_3" name="profile_E_3" value="jawab2">
+                                          <label>4-6 perangkat</label><br>
+                                          <input type="radio" id="profile_E_3" name="profile_E_3" value="jawab3">
+                                          <label>7-10 perangkat</label><br>
+                                          <input type="radio" id="profile_E_3" name="profile_E_3" value="jawab4">
+                                          <label>Lebih dari 10 perangkat</label>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
                                   <div id="dataprofile_bagF">
-                                    <div class="row-sm">
-                                      <div class="col-sm">
-                                        <h6>Bagian F</h6>
+                                    <b>Profile F</b><br><br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>1. Sebelumnya yang biasa menggunakan IndiHome adalah :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_F_1" name="profile_F_1" value="jawab1">
+                                          <label>Suami/Istri</label><br>
+                                          <input type="radio" id="profile_F_1" name="profile_F_1" value="jawab2">
+                                          <label>Saudara/Keluarga</label><br>
+                                          <input type="radio" id="profile_F_1" name="profile_F_1" value="jawab3">
+                                          <label>Penghuni Kost</label><br>
+                                          <input type="radio" id="profile_F_1" name="profile_F_1" value="jawab4">
+                                          <label>Pengontrak</label><br>
+                                          <input type="radio" id="profile_F_1" name="profile_F_1" value="jawab5">
+                                          <label>Karyawan</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="row-md">
+                                      <div class="row-sm-8">
+                                        <label>2. Kondisi saat ini yang biasa menggunakan IndiHome :</label>
+                                      </div>
+                                      <div class="row-sm-9">
+                                        <div class="col-sm">
+                                          <input type="radio" id="profile_F_2" name="profile_F_2" value="jawab1">
+                                          <label>Pindah kerja luar kota</label><br>
+                                          <input type="radio" id="profile_F_2" name="profile_F_2" value="jawab2">
+                                          <label>Pendidikan luar kota</label><br>
+                                          <input type="radio" id="profile_F_2" name="profile_F_2" value="jawab3">
+                                          <label>Pensiun dan Pulang kampung</label><br>
+                                          <input type="radio" id="profile_F_2" name="profile_F_2" value="jawab4">
+                                          <label>Lulus kuliah dan Pulang kampung</label><br>
+                                          <input type="radio" id="profile_F_2" name="profile_F_2" value="jawab5">
+                                          <label>Sudah mulai kuliah offline</label>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -614,32 +785,40 @@
                 <div class="row-lg grid-row">
                   <div class="col-lg-12 text-justify">
                     <p><b>Tahukah Anda bahwa : </b><br><br>
-                      1. Jika berhenti berlangganan sebelum masa berlangganan 12 bulan, maka akan dikenakan penalty Rp 1.000.000,-
-                      <br><br>
-                      2. Jika berhenti berlangganan, maka jaringan akan dipergunakan untuk melayani Pasang Baru di tempat lain, sehingga apabila Anda ingin mengajukan pemasangan kembali belum tentu bisa langsung dilayani.
-                      <br><br>
-                      3. Indihome adalah layanan pasca bayar, sehingga jika berhenti berlangganan maka pelanggan harus melunasi tagihan bulan ini (yang merupakan biaya pemakaian / berlangganan bulan lalu) dan membayar uang titipan untuk tagihan bulan depan (yang merupakan biaya pemakaian / berlangganan bulan ini).
-                      <br><br>
-                      4. Biaya Pasang Baru IndiHome saat ini adalah Rp 500.000,-
-                      <br><br>
-                      5. Plasa Telkom bisa melayani Down grade paket IndiHome yang lebih rendah
-                      <br><br>
-                      6. Ada paket isolir sementara, dengan tagihan jaringan per bulan sebesar Rp 25.000,-
-                      <br><br>
-                      7. Ada paket IndiHome Quota
-                      <br><br>
+                      1. Jika berhenti berlangganan sebelum masa berlangganan 12 bulan, maka akan dikenakan penalty Rp 1.000.000,- <br>
+                      2. Jika berhenti berlangganan, maka jaringan akan dipergunakan untuk melayani Pasang Baru di tempat lain, sehingga apabila Anda ingin mengajukan pemasangan kembali belum tentu bisa langsung dilayani. <br>
+                      3. Indihome adalah layanan pasca bayar, sehingga jika berhenti berlangganan maka pelanggan harus melunasi tagihan bulan ini (yang merupakan biaya pemakaian / berlangganan bulan lalu) dan membayar uang titipan untuk tagihan bulan depan (yang merupakan biaya pemakaian / berlangganan bulan ini). <br>
+                      4. Jika dikemudian hari ingin Pasang Baru IndiHome Kembali, dikenakan Biaya sebesar Rp 500.000,- (ketentuan saat ini) <br>
+                      5. Plasa Telkom bisa memberikan solusi tarif menarik yang sesuai dengan kebtuhan Anda <br>
+                      6. Ada paket isolir sementara, dengan tagihan jaringan per bulan sebesar Rp 25.000,- <br>
+                      7. Ada paket IndiHome Quota <br>
                       8. Ada paket IndiHome Prepaid
                     </p>
                   </div>
                 </div>
                 <div class="row grid-row align-item-center d-flex">
                   <div class="col-sm-4">
-                    <input class="btn bg-primary text-white" type="button" name="btnBerhentiLangganan" id="btnBerhentiLangganan" onclick="btnBerhentiLangganan()" value="Tetap Berhenti Langganan">
+                    <input class="btn bg-primary text-white" type="button" name="btnBatalLangganan" id="btnBatalLangganan" onclick="btnBatalLangganan()" value="Batal Berhenti Langganan">
+                  </div>
+                  <div class="col-sm-4">
+                    <input class="btn bg-warning text-white" type="button" name="btnBerhentiLangganan" id="btnBerhentiLangganan" onclick="btnBerhentiLangganan()" value="Tetap Berhenti Langganan">
                   </div>
                   <div class="col-sm-4">
                     <input class="btn bg-success text-white" type="button" name="btnKonsultasi" id="btnKonsultasi" onclick="btnKonsultasi()" value="Konsultasi ke CSR">
                   </div>
                 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="alert_modal" class="alert_modal">
+        <div class="modal-content-alert" id="modal_content">
+          <div class="row-sm">
+            <span class="alert-close" style="float:left;">&times;</span>
+          </div>
+          <div class="row-sm">
+            <div class="col-sm text-center">
+                Tolong lengkapi form pengajuan ini.
             </div>
           </div>
         </div>
@@ -650,10 +829,11 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script>
         $(document).ready(function(){
+          $("#myForm")[0].reset();
           $("#dataprofile_bagA").hide();
           $("#dataprofile_bagB").hide();
           $("#dataprofile_bagC").hide();
-          $("#dataprofile_bagD").show();
+          $("#dataprofile_bagD").hide();
           $("#dataprofile_bagE").hide();
           $("#dataprofile_bagF").hide();
           $("#data_profile1").prop("checked",false);
@@ -711,23 +891,37 @@
                 $("#dataprofile_bagE").hide();
                 $("#dataprofile_bagF").show();
               });
+
+              $("#btnLanjut").click(function() {
+                    modal.style.display = "block";
+                });
         });
 
         var modal = document.getElementById("myModal");
+        var alert_modal = document.getElementById("alert_modal");
         var span = document.getElementsByClassName("close")[0];
+        var alert_span = document.getElementsByClassName("alert-close")[0];
         span.onclick = function() {
               modal.style.display = "none";
+        }
+
+        alert_span.onclick = function() {
+              alert_modal.style.display = "none";
         }
 
         window.onclick = function(event) {
               if (event.target == modal) {
                 modal.style.display = "none";
               }
+              if (event.target == alert_modal) {
+                alert_modal.style.display = "none";
+              }
         }
 
-        function btnLanjut(){
-          modal.style.display = "block";
-        }
+        function btnBatalLangganan(){}
+        function btnBerhentiLangganan(){}
+        function btnKonsultasi(){}
+
       </script>
     </body>
 </html>
