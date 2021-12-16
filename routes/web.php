@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CaringFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('form.login');
 });
-Route::get('/form','CaringFormController@index')->name('caring.form');
+Route::post('/form',[CaringFormController::class,'index'])->name('caring.form');
