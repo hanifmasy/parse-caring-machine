@@ -17,5 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('form.caring');
+    return view('form.login');
 });
+Route::get('/form','CaringFormController@index')->name('caring.form');
