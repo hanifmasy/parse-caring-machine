@@ -19,4 +19,8 @@ use App\Http\Controllers\CaringFormController;
 Route::get('/', function () {
     return view('form.login');
 });
-Route::post('/form',[CaringFormController::class,'index'])->name('caring.form');
+
+// Route::get('/antrian',[CaringFormController::class,'index'])->name('caring.antrian');
+Route::post('/antrian',[CaringFormController::class,'index'])->name('caring.antrian');
+// Route::get('/form',[CaringFormController::class,'formCaring'])->name('caring.form');
+Route::post('/form',[CaringFormController::class,'formCaring'])->name('caring.form');

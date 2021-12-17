@@ -18,7 +18,14 @@
             <b>Petunjuk:</b><br> Dapatkan password plasa dari petugas plasa di tempat. Kemudian silahkan isi password pada form login ini.
           </div>
           <br><br>
-          <form action="{{ route('caring.form') }}" method="POST">
+          @isset($message)
+          <div class="row mb-3">
+            <div class="col-sm-12 mx-auto text-center">
+              <p class="bg-danger text-white">{{ $message ?? '' }} </p>
+            </div>
+          </div>
+          @endisset
+          <form action="{{ route('caring.antrian') }}" method="POST">
             @csrf
               <div class="row mb-3">
                 <div class="col-sm-12">
@@ -43,7 +50,7 @@
 <script>
   $(document).ready(function(){
     $("#inputPasswordPlasa").val('');
-    $("#inputNomorAntrian").val('');
+    // $("#inputNomorAntrian").val('');
   });
 </script>
 @endsection
