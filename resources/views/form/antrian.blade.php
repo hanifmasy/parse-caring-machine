@@ -18,33 +18,28 @@
             <b>Petunjuk:</b><br> Dapatkan nomor antrian dari mesin antrian Plasa Telkom di tempat.
           </div>
           <br><br>
-          <form action="#" method="POST">
-              <div class="row mb-3">
-                <div class="col-sm-12 text-center align-items-center">
-                  <p class="" id="plasa">
+          <form action="{{ route('caring.form.one') }}" method="POST">
+            @csrf
+              <div class="row sm-12 mx-auto">
+                <div class="col-sm-8 mx-auto text-center align-items-center">
                     @isset($result)
                         @foreach($result as $val)
-                            {{ $val->nama_plasa ?? '' }}
+                            <p class="text-muted">Plasa :<br><b>{{ $val->nama_plasa ?? '' }}</b></p><input style="display:none;border:none;margin-left:7%;margin-right:5%;" id="plasa_id" name="plasa_id" type="text" value="{{ $val->id ?? '' }}" readonly>
                         @endforeach
                     @endisset
-                  </p>
                 </div>
               </div>
+              <br><br>
               <div class="row mb-3">
                 <div class="col-sm-12">
                   <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">A-</span>
-                    <input id="inputNomorAntrian" type="text" class="form-control" placeholder="Nomor Antrian Anda" aria-label="no_antrian" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">A</span>
+                    <input required id="inputNomorAntrian" name="no_antrian" type="text" class="form-control" placeholder="Nomor Antrian Anda" aria-label="no_antrian" aria-describedby="basic-addon1">
+                    <button id="btnLanjut" style="width:100px" type="submit" class="btn btn-primary">Lanjut</button>
                   </div>
                 </div>
               </div>
               <br>
-              <div class="row mb-3">
-                <label class="col-sm-4 col-form-label"></label>
-                <div class="col-sm-6">
-                  <button id="btnLanjut" style="width:100px" type="button" class="btn btn-primary">Lanjut</button>
-                </div>
-              </div>
           </form>
         </div>
       </div>
@@ -55,32 +50,7 @@
 @section('scripts')
 <script>
   $(document).ready(function(){
-    $("#inputNomorAntrian").val('');
-    var plasa = $('#plasa').text();
-    var no_antrian = $('#inputNomorAntrian').val();
-
-    $('#btnLanjut').click(function(){
-          $.ajaxSetup({
-              headers: {
-                  'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-                }
-              });
-
-          $.ajax({
-              type:"POST",
-              url:"{{ route('caring.form') }}",
-              data : {
-                plasa: plasa,
-                no_antrian: no_antrian,
-              },
-              success: function(data) {
-                  //$("#success").html('Inserted into database').delay(3000).fadeOut();
-                  console.log(data)
-              }
-            });
-
-    });
-
+    $('#inputNomorAntrian').val('');
   });
 </script>
 @endsection

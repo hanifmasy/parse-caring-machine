@@ -29,16 +29,13 @@
             @csrf
               <div class="row mb-3">
                 <div class="col-sm-12">
-                  <input id="inputPasswordPlasa" name="passwd_plasa" required type="text" placeholder="Password Plasa" class="form-control">
+                  <div class="input-group mb-3">
+                    <input id="inputPasswordPlasa" name="passwd_plasa" required type="text" placeholder="Password Plasa" class="form-control">
+                    <button id="btnLogin" type="submit" style="width:100px" class="btn btn-primary">Login</button>
+                  </div>
                 </div>
               </div>
               <br>
-              <div class="row mb-3">
-                <label class="col-sm-4 col-form-label"></label>
-                <div class="col-sm-6">
-                  <button id="btnLogin" style="width:100px" type="submit" class="btn btn-primary">Login</button>
-                </div>
-              </div>
           </form>
         </div>
       </div>
@@ -50,7 +47,6 @@
 <script>
   $(document).ready(function(){
     $("#inputPasswordPlasa").val('');
-    // $("#inputNomorAntrian").val('');
   });
 </script>
 @endsection

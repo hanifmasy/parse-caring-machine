@@ -13,14 +13,22 @@ use App\Http\Controllers\CaringFormController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
     return view('form.login');
-});
+})->name('login');
 
+// ANTRIAN
 // Route::get('/antrian',[CaringFormController::class,'index'])->name('caring.antrian');
 Route::post('/antrian',[CaringFormController::class,'index'])->name('caring.antrian');
-// Route::get('/form',[CaringFormController::class,'formCaring'])->name('caring.form');
-Route::post('/form',[CaringFormController::class,'formCaring'])->name('caring.form');
+
+// DATA PEMOHON
+// Route::get('/form/1',[CaringFormController::class,'formCaring1'])->name('caring.form.one');
+Route::post('/form/1',[CaringFormController::class,'formCaring1'])->name('caring.form.one');
+
+// DATA PROFILE
+// Route::get('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
+Route::post('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
+
+// PAGE HASIL
+// Route::get('/form/submit',[CaringFormController::class,'formCaringSubmit'])->name('caring.form.submit');
+Route::post('/form/submit',[CaringFormController::class,'formCaringSubmit'])->name('caring.form.submit');
