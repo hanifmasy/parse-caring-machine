@@ -108,25 +108,25 @@ if(form.radiodataprofile === 'jawabA'){
             </div>
             <!-- INPUT NOMOR A1 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="1-3 kali" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="1-3 kali">
               <label class="form-check-label" for="exampleRadios1">
                 1-3 kali
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="4-6 kali" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="4-6 kali">
               <label class="form-check-label" for="exampleRadios1">
                 4-6 kali
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="7-10 kali" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="7-10 kali">
               <label class="form-check-label" for="exampleRadios1">
                 7-10 kali
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="Lebih dari 10 kali" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a1" id="radio_profile_a1" value="Lebih dari 10 kali">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih dari 10 kali
               </label>
@@ -145,25 +145,25 @@ if(form.radiodataprofile === 'jawabA'){
             </div>
             <!-- INPUT NOMOR A2 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="1-7 hari yang lalu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="1-7 hari yang lalu">
               <label class="form-check-label" for="exampleRadios1">
                 1-7 hari yang lalu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="8-15 hari yang lalu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="8-15 hari yang lalu">
               <label class="form-check-label" for="exampleRadios1">
                 8-15 hari yang lalu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="16-30 hari yang lalu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="16-30 hari yang lalu">
               <label class="form-check-label" for="exampleRadios1">
                 16-30 hari yang lalu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="Lebih dari sebulan yang lalu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a2" id="radio_profile_a2" value="Lebih dari sebulan yang lalu">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih dari sebulan yang lalu
               </label>
@@ -182,49 +182,49 @@ if(form.radiodataprofile === 'jawabA'){
             </div>
             <!-- INPUT NOMOR A3 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Aplikasi myIndiHome" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Aplikasi myIndiHome">
               <label class="form-check-label" for="exampleRadios1">
                 Aplikasi myIndiHome
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Call Center 147" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Call Center 147">
               <label class="form-check-label" for="exampleRadios1">
                 Call Center 147
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Plasa Telkom" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Plasa Telkom">
               <label class="form-check-label" for="exampleRadios1">
                 Plasa Telkom
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Sosial media @indihomecare" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Sosial media @indihomecare">
               <label class="form-check-label" for="exampleRadios1">
                 Sosial media @indihomecare
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Teknisi" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Teknisi">
               <label class="form-check-label" for="exampleRadios1">
                 Teknisi
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Sales" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Sales">
               <label class="form-check-label" for="exampleRadios1">
                 Sales
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Teman" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="Teman">
               <label class="form-check-label" for="exampleRadios1">
                 Teman
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="WhatsApp" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_a3" id="radio_profile_a3" value="WhatsApp">
               <label class="form-check-label" for="exampleRadios1">
                 WhatsApp
               </label>
@@ -243,25 +243,25 @@ if(form.radiodataprofile === 'jawabA'){
         </div>
         <!-- INPUT NOMOR A4 -->
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="1-3 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="1-3 orang">
           <label class="form-check-label" for="exampleRadios1">
             1-3 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="4-6 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="4-6 orang">
           <label class="form-check-label" for="exampleRadios1">
             4-6 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="7-10 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="7-10 orang">
           <label class="form-check-label" for="exampleRadios1">
             7-10 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="Lebih dari 10 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a4" id="radio_profile_a4" value="Lebih dari 10 orang">
           <label class="form-check-label" for="exampleRadios1">
             Lebih dari 10 orang
           </label>
@@ -280,25 +280,25 @@ if(form.radiodataprofile === 'jawabA'){
         </div>
         <!-- INPUT NOMOR A5 -->
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="1-3 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="1-3 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             1-3 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="4-6 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="4-6 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             4-6 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="7-10 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="7-10 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             7-10 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="Lebih dari 10 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_a5" id="radio_profile_a5" value="Lebih dari 10 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             Lebih dari 10 perangkat
           </label>
@@ -387,31 +387,31 @@ if(form.radiodataprofile === 'jawabB'){
             </div>
             <!-- INPUT NOMOR B1 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="100-150 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="100-150 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 100-150 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="150-250 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="150-250 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 150-250 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="250-400 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="250-400 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 250-400 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="400-700 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="400-700 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 400-700 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="700-1.500 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_b1" id="radio_profile_b1" value="700-1.500 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 700-1.500 ribu
               </label>
@@ -430,37 +430,37 @@ if(form.radiodataprofile === 'jawabB'){
         </div>
         <!-- INPUT NOMOR B2 -->
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="10M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="10M">
           <label class="form-check-label" for="exampleRadios1">
             10M
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="20M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="20M">
           <label class="form-check-label" for="exampleRadios1">
             20M
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="30M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="30M">
           <label class="form-check-label" for="exampleRadios1">
             30M
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="40M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="40M">
           <label class="form-check-label" for="exampleRadios1">
             40M
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="50M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="50M">
           <label class="form-check-label" for="exampleRadios1">
             50M
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="100M" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b2" id="radio_profile_b2" value="100M">
           <label class="form-check-label" for="exampleRadios1">
             100M
           </label>
@@ -479,25 +479,25 @@ if(form.radiodataprofile === 'jawabB'){
         </div>
         <!-- INPUT NOMOR B3 -->
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="1-3 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="1-3 orang">
           <label class="form-check-label" for="exampleRadios1">
             1-3 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="4-6 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="4-6 orang">
           <label class="form-check-label" for="exampleRadios1">
             4-6 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="7-10 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="7-10 orang">
           <label class="form-check-label" for="exampleRadios1">
             7-10 orang
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="Lebih dari 10 orang" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b3" id="radio_profile_b3" value="Lebih dari 10 orang">
           <label class="form-check-label" for="exampleRadios1">
             Lebih dari 10 orang
           </label>
@@ -516,25 +516,25 @@ if(form.radiodataprofile === 'jawabB'){
         </div>
         <!-- INPUT NOMOR B4 -->
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="1-3 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="1-3 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             1-3 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="4-6 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="4-6 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             4-6 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="7-10 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="7-10 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             7-10 perangkat
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="Lebih dari 10 perangkat" checked>
+          <input class="form-check-input" type="radio" name="radio_profile_b4" id="radio_profile_b4" value="Lebih dari 10 perangkat">
           <label class="form-check-label" for="exampleRadios1">
             Lebih dari 10 perangkat
           </label>
@@ -621,25 +621,25 @@ if(form.radiodataprofile === 'jawabC'){
             </div>
             <!-- INPUT NOMOR C1 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Rumah baru" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Rumah baru">
               <label class="form-check-label" for="exampleRadios1">
                 Rumah baru
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Kontrakan habis" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Kontrakan habis">
               <label class="form-check-label" for="exampleRadios1">
                 Kontrakan habis
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Pindah kerja/tugas" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Pindah kerja/tugas">
               <label class="form-check-label" for="exampleRadios1">
                 Pindah kerja/tugas
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Pulang kampung" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_c1" id="radio_profile_c1" value="Pulang kampung">
               <label class="form-check-label" for="exampleRadios1">
                 Pulang kampung
               </label>
@@ -789,31 +789,31 @@ if(form.radiodataprofile === 'jawabD'){
             </div>
             <!-- INPUT NOMOR D2 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="100-150 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="100-150 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 100-150 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="150-250 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="150-250 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 150-250 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="250-400 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="250-400 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 250-400 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="400-700 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="400-700 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 400-700 ribu
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="700-1.500 ribu" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d2" id="radio_profile_d2" value="700-1.500 ribu">
               <label class="form-check-label" for="exampleRadios1">
                 700-1.500 ribu
               </label>
@@ -832,31 +832,31 @@ if(form.radiodataprofile === 'jawabD'){
             </div>
             <!-- INPUT NOMOR D3 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih murah" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih murah">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih murah
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih cepat" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih cepat">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih cepat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih stabil/jarang gangguan" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Lebih stabil/jarang gangguan">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih stabil/jarang gangguan
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Petugas lebih memuaskan & berkompeten" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Petugas lebih memuaskan & berkompeten">
               <label class="form-check-label" for="exampleRadios1">
                 Petugas lebih memuaskan & berkompeten
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Fitur layanan lebih lengkap" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_d3" id="radio_profile_d3" value="Fitur layanan lebih lengkap">
               <label class="form-check-label" for="exampleRadios1">
                 Fitur layanan lebih lengkap
               </label>
@@ -893,31 +893,31 @@ if(form.radiodataprofile === 'jawabE'){
             </div>
             <!-- INPUT NOMOR E1 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Meninggal dunia" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Meninggal dunia">
               <label class="form-check-label" for="exampleRadios1">
                 Meninggal dunia
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Bencana Alam" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Bencana Alam">
               <label class="form-check-label" for="exampleRadios1">
                 Bencana Alam
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Kebakaran" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Kebakaran">
               <label class="form-check-label" for="exampleRadios1">
                 Kebakaran
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Kehilangan penghasilan" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Kehilangan penghasilan">
               <label class="form-check-label" for="exampleRadios1">
                 Kehilangan penghasilan
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Mengganggu kehidupan,pembelajaran,/kecanduan internet" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e1" id="radio_profile_e1" value="Mengganggu kehidupan,pembelajaran,/kecanduan internet">
               <label class="form-check-label" for="exampleRadios1">
                 Mengganggu kehidupan,pembelajaran,/kecanduan internet
               </label>
@@ -936,25 +936,25 @@ if(form.radiodataprofile === 'jawabE'){
             </div>
             <!-- INPUT NOMOR E2 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="1-3 orang" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="1-3 orang">
               <label class="form-check-label" for="exampleRadios1">
                 1-3 orang
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="4-6 orang" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="4-6 orang">
               <label class="form-check-label" for="exampleRadios1">
                 4-6 orang
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="7-10 orang" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="7-10 orang">
               <label class="form-check-label" for="exampleRadios1">
                 7-10 orang
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="Lebih dari 10 orang" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e2" id="radio_profile_e2" value="Lebih dari 10 orang">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih dari 10 orang
               </label>
@@ -973,25 +973,25 @@ if(form.radiodataprofile === 'jawabE'){
             </div>
             <!-- INPUT NOMOR E3 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="1-3 perangkat" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="1-3 perangkat">
               <label class="form-check-label" for="exampleRadios1">
                 1-3 perangkat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="4-6 perangkat" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="4-6 perangkat">
               <label class="form-check-label" for="exampleRadios1">
                 4-6 perangkat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="7-10 perangkat" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="7-10 perangkat">
               <label class="form-check-label" for="exampleRadios1">
                 7-10 perangkat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="Lebih dari 10 perangkat" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_e3" id="radio_profile_e3" value="Lebih dari 10 perangkat">
               <label class="form-check-label" for="exampleRadios1">
                 Lebih dari 10 perangkat
               </label>
@@ -1027,31 +1027,31 @@ if(form.radiodataprofile === 'jawabF'){
             </div>
             <!-- INPUT NOMOR F1 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Suami/Istri" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Suami/Istri">
               <label class="form-check-label" for="exampleRadios1">
                 Suami/Istri
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Saudara/Keluarga" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Saudara/Keluarga">
               <label class="form-check-label" for="exampleRadios1">
                 Saudara/Keluarga
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Penghuni kost" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Penghuni kost">
               <label class="form-check-label" for="exampleRadios1">
                 Penghuni kost
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Pengontrak" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Pengontrak">
               <label class="form-check-label" for="exampleRadios1">
                 Pengontrak
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Karyawan" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f1" id="radio_profile_f1" value="Karyawan">
               <label class="form-check-label" for="exampleRadios1">
                 Karyawan
               </label>
@@ -1070,31 +1070,31 @@ if(form.radiodataprofile === 'jawabF'){
             </div>
             <!-- INPUT NOMOR F2 -->
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pindah kerja luar kota" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pindah kerja luar kota">
               <label class="form-check-label" for="exampleRadios1">
                 Pindah kerja luar kota
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pendidikan luar kota" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pendidikan luar kota">
               <label class="form-check-label" for="exampleRadios1">
                 Pendidikan luar kota
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pensiun dan pulang kampung" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Pensiun dan pulang kampung">
               <label class="form-check-label" for="exampleRadios1">
                 Pensiun dan pulang kampung
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Lulus kuliah dan pulang kampung" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Lulus kuliah dan pulang kampung">
               <label class="form-check-label" for="exampleRadios1">
                 Lulus kuliah dan pulang kampung
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Sudah mulai kuliah offline" checked>
+              <input class="form-check-input" type="radio" name="radio_profile_f2" id="radio_profile_f2" value="Sudah mulai kuliah offline">
               <label class="form-check-label" for="exampleRadios1">
                 Sudah mulai kuliah offline
               </label>

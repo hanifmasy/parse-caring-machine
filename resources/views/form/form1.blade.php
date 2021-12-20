@@ -68,7 +68,8 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 1 -->
-                                      <input id="inputIsian" name="nama_plggn"  type="text" class="form-control inputNamaPelanggan" placeholder="Nama Anda (sesuai KTP)" aria-label="nama_plggn">
+                                      <p class="text-muted">Nama (sesuai KTP):</p>
+                                      <input id="inputIsian" name="nama_plggn"  type="text" class="form-control inputNamaPelanggan" placeholder="" aria-label="nama_plggn">
                                   </div> <input type="button" name="next" class="next action-button" value="Lanjut" />
                               </fieldset>
                               <fieldset>
@@ -82,7 +83,8 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 2 -->
-                                      <input id="inputIsian" name="no_ktp"  type="text" class="form-control inputNoKTP" placeholder="Nomor KTP Anda" aria-label="no_ktp">
+                                      <p class="text-muted">Nomor KTP:</p>
+                                      <input id="inputIsian" name="no_ktp"  type="text" class="form-control inputNoKTP" placeholder="" aria-label="no_ktp">
                                   </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
@@ -96,7 +98,8 @@
                                           </div>
                                         </div>
                                       <!-- INPUT NOMOR 3 -->
-                                      <input id="inputIsian" name="alamat"  type="text" class="form-control inputAlamat" placeholder="Alamat Anda" aria-label="alamat">
+                                      <p class="text-muted">Alamat:</p>
+                                      <input id="inputIsian" name="alamat"  type="text" class="form-control inputAlamat" placeholder="" aria-label="alamat">
                                   </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
@@ -110,7 +113,8 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 4 -->
-                                      <input id="inputIsian" name="no_indihome"  type="text" class="form-control inputNoIndiHome" placeholder="Nomor IndiHome" aria-label="no_indihome">
+                                      <p class="text-muted">Nomor IndiHome:</p>
+                                      <input id="inputIsian" name="no_indihome"  type="text" class="form-control inputNoIndiHome" placeholder="" aria-label="no_indihome">
                                   </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
@@ -124,7 +128,8 @@
                                           </div>
                                       </div>
                                     <!-- INPUT NOMOR 5 -->
-                                    <input id="inputIsian" name="tagihan_indihome"  type="text" class="form-control inputTagihan" placeholder="Tagihan IndiHome" aria-label="tagihan_indihome">
+                                    <p class="text-muted">Tagihan IndiHome:</p>
+                                    <input id="inputIsian" name="tagihan_indihome"  type="text" class="form-control inputTagihan" placeholder="" aria-label="tagihan_indihome">
                                   </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
@@ -140,37 +145,37 @@
                                     <!-- INPUT NOMOR 6 -->
                                     <p class="text-muted">Paket Speed IndiHome:</p>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="10M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="10M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         10M
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="20M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="20M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         20M
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="30M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="30M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         30M
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="40M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="40M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         40M
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="50M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="50M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         50M
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="100M" checked>
+                                      <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="100M">
                                       <label class="form-check-label" for="exampleRadios1">
                                         100M
                                       </label>
@@ -190,37 +195,37 @@
                                       <!-- INPUT NOMOR 7 -->
                                       <p class="text-muted">Hubungan pemohon dengan nomor IndiHome:</p>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Pemilik" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Pemilik">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Pemilik
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Suami/Istri" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Suami/Istri">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Suami/Istri
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Keluarga" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Keluarga">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Keluarga
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Karyawan" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Karyawan">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Karyawan
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Pengontrak" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Pengontrak">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Pengontrak
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Lainnya" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Lainnya">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Lainnya
                                         </label>
@@ -241,37 +246,37 @@
                                       <!-- INPUT NOMOR 8 -->
                                       <p class="text-muted">Alasan mengajukan berhenti berlangganan :</p>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Efisiensi Harga Mahal" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Efisiensi Harga Mahal">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Efisiensi Harga Mahal
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Efisiensi Tutup Usaha" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Efisiensi Tutup Usaha">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Efisiensi Tutup Usaha
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Layanan Sering Gangguan" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Layanan Sering Gangguan">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Layanan Sering Gangguan
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Perbaikan Gangguan Lama" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Perbaikan Gangguan Lama">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Perbaikan Gangguan Lama
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Pindah Provider Lain" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Pindah Provider Lain">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Pindah Provider Lain
                                         </label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Sudah Punya IndiHome Baru" checked>
+                                        <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Sudah Punya IndiHome Baru">
                                         <label class="form-check-label" for="exampleRadios1">
                                           Sudah Punya IndiHome Baru
                                         </label>
@@ -308,43 +313,43 @@
                                     <!-- INPUT PERTANYAAN DATA PROFILE A s.d. G -->
                                     <p class="text-muted">Penyebab Anda berhenti berlangganan:</p>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabA" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabA">
                                       <label class="form-check-label" for="exampleRadios1">
                                         A. Sering Gangguan
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabB" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabB">
                                       <label class="form-check-label" for="exampleRadios1">
                                         B. Terlalu Mahal
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabC" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabC">
                                       <label class="form-check-label" for="exampleRadios1">
                                         C. Pindah Alamat
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabD" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabD">
                                       <label class="form-check-label" for="exampleRadios1">
                                         D. Ganti Operator
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabE" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabE">
                                       <label class="form-check-label" for="exampleRadios1">
                                         E. Musibah
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabF" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabF">
                                       <label class="form-check-label" for="exampleRadios1">
                                         F. Tidak ada yang menggunakan
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabG" checked>
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabG">
                                       <label class="form-check-label" for="exampleRadios1">
                                         G. Alasan lain
                                       </label>
@@ -460,50 +465,95 @@ $(document).ready(function(){
               <div class="col-sm-6">
               `+tagihan+`
               </div>
-            </div>
-            <div class="row sm-12">
-              <div class="col-sm-6 text-muted">
-                Paket Speed IndiHome :
-              </div>
-              <div class="col-sm-6">
-              `+radio_satu_no6+`
-              </div>
             </div>`);
-            if(radio_satu_no7 !== 'Lainnya'){
+
+
+            if(radio_satu_no6 !== undefined){
               $('#isianDataPemohon').append(`
-                <div class="row sm-12">
-                  <div class="col-sm-6 text-muted">
-                    Hubungan pemohon dengan nomor IndiHome :
+                    <div class="row sm-12">
+                      <div class="col-sm-6 text-muted">
+                        Paket Speed IndiHome :
+                      </div>
+                      <div class="col-sm-6">
+                      `+radio_satu_no6+`
+                      </div>
+                    </div>`);
+            }
+            else {
+              $('#isianDataPemohon').append(`
+                    <div class="row sm-12">
+                      <div class="col-sm-6 text-muted">
+                        Paket Speed IndiHome :
+                      </div>
+                      <div class="col-sm-6">
+                      </div>
+                    </div>`);
+            }
+
+
+            if(radio_satu_no7 !== undefined){
+              if(radio_satu_no7 !== 'Lainnya'){
+                $('#isianDataPemohon').append(`
+                  <div class="row sm-12">
+                    <div class="col-sm-6 text-muted">
+                      Hubungan pemohon dengan nomor IndiHome :
+                    </div>
+                    <div class="col-sm-6">
+                    `+radio_satu_no7+`
+                    </div>
                   </div>
-                  <div class="col-sm-6">
-                  `+radio_satu_no7+`
-                  </div>
-                </div>
-                `);
-             }
-             if(radio_satu_no7 === 'Lainnya'){
-               $('#isianDataPemohon').append(`
-                 <div class="row sm-12">
-                   <div class="col-sm-6 text-muted">
-                     Hubungan pemohon dengan nomor IndiHome :
+                  `);
+               }
+               if(radio_satu_no7 === ''){
+                 $('#isianDataPemohon').append(`
+                   <div class="row sm-12">
+                     <div class="col-sm-6 text-muted">
+                       Hubungan pemohon dengan nomor IndiHome :
+                     </div>
+                     <div class="col-sm-6">
+                     `+pemohon_lainnya_no7+`
+                     </div>
                    </div>
-                   <div class="col-sm-6">
-                   `+pemohon_lainnya_no7+`
-                   </div>
-                 </div>
-                 `);
+                   `);
+                 }
               }
-      $('#isianDataPemohon').append(`
-            <div class="row sm-12">
-              <div class="col-sm-6 text-muted">
-                Alasan berhenti berlangganan :
-              </div>
-              <div class="col-sm-6">
-              `+radio_satu_no8+`
-              </div>
-            </div>
-            <br>
-          `);
+              else {
+                $('#isianDataPemohon').append(`
+                  <div class="row sm-12">
+                    <div class="col-sm-6 text-muted">
+                      Hubungan pemohon dengan nomor IndiHome :
+                    </div>
+                    <div class="col-sm-6">
+                    </div>
+                  </div>
+                  `);
+                }
+
+          if(radio_satu_no8 !== undefined){
+            $('#isianDataPemohon').append(`
+                  <div class="row sm-12">
+                    <div class="col-sm-6 text-muted">
+                      Alasan berhenti berlangganan :
+                    </div>
+                    <div class="col-sm-6">
+                    `+radio_satu_no8+`
+                    </div>
+                  </div>
+                  <br>
+                `);
+          }
+          else {
+            $('#isianDataPemohon').append(`
+                  <div class="row sm-12">
+                    <div class="col-sm-6 text-muted">
+                      Alasan berhenti berlangganan :
+                    </div>
+                    <div class="col-sm-6">
+                    </div>
+                  </div>
+                  <br>
+                `);
+          }
     });
 
     // $('#btnLanjutProfile').click(function(){
