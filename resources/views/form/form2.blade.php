@@ -101,6 +101,7 @@ if(form.radiodataprofile === 'jawabA'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Penyebab Berhenti Berlangganan:</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -131,13 +132,14 @@ if(form.radiodataprofile === 'jawabA'){
                 Lebih dari 10 kali
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-a-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Waktu Gangguan Terakhir:</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h2 class="steps"></h2>
@@ -168,13 +170,14 @@ if(form.radiodataprofile === 'jawabA'){
                 Lebih dari sebulan yang lalu
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input type="button" name="next" class="next next-a-2 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Media Melaporkan Gangguan:</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h2 class="steps"></h2>
@@ -229,13 +232,14 @@ if(form.radiodataprofile === 'jawabA'){
                 WhatsApp
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input type="button" name="next" class="next next-a-3 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
         <div class="row sm-12">
             <div class="col-sm-11">
                 <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Jumlah orang yang biasa menggunakan IndiHome:</h6>
+                <br><span class="error-input bg-danger text-white text-center"></span>
             </div>
             <div class="col-sm-1">
                 <h2 class="steps"></h2>
@@ -266,13 +270,14 @@ if(form.radiodataprofile === 'jawabA'){
             Lebih dari 10 orang
           </label>
         </div>
-    </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input type="button" name="next" class="next next-a-4 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
         <div class="row sm-12">
             <div class="col-sm-11">
                 <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Jumlah perangkat / gadget yang terhubung ke IndiHome:</h6>
+                <br><span class="error-input bg-danger text-white text-center"></span>
             </div>
             <div class="col-sm-1">
                 <h2 class="steps"></h2>
@@ -303,13 +308,14 @@ if(form.radiodataprofile === 'jawabA'){
             Lebih dari 10 perangkat
           </label>
         </div>
-    </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input type="button" name="next" class="next next-a-5 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
     <div class="row sm-12">
         <div class="col-sm-11">
             <h5 class="fs-title"><p>A. Sering Gangguan</p></h5><br><h6 class="text-muted">Rencana penggunaan internet selanjutnya menggunakan:</h6>
+            <br><span class="error-input bg-danger text-white text-center"></span>
         </div>
         <div class="col-sm-1">
             <h2 class="steps"></h2>
@@ -353,7 +359,7 @@ if(form.radiodataprofile === 'jawabA'){
         </label>
         <input id="inputIsian" name="profile_a6_lainnya" type="text" class="form-control profile_a6_lainnya" placeholder="Tuliskan alasannya" aria-label="profile_a6_lainnya">
       </div>
-    </div> <br><input id="cekIsianA" type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input id="cekIsianA" type="button" name="next" class="next next-a-6 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -380,6 +386,7 @@ if(form.radiodataprofile === 'jawabB'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>B. Terlalu Mahal</p></h5><br><h6 class="text-muted">Berapa seharusnya tarif internet yang wajar?</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -416,13 +423,14 @@ if(form.radiodataprofile === 'jawabB'){
                 700-1.500 ribu
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-b-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
     <div class="form-card">
         <div class="row sm-12">
             <div class="col-sm-11">
                 <h5 class="fs-title"><p>B. Terlalu Mahal</p></h5><br><h6 class="text-muted">Berapa kecepatan internet yang diperlukan?</h6>
+                <br><span class="error-input bg-danger text-white text-center"></span>
             </div>
             <div class="col-sm-1">
                 <h2 class="steps"></h2>
@@ -465,13 +473,14 @@ if(form.radiodataprofile === 'jawabB'){
             100M
           </label>
         </div>
-    </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input type="button" name="next" class="next next-b-2 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
         <div class="row sm-12">
             <div class="col-sm-11">
                 <h5 class="fs-title"><p>B. Terlalu Mahal</p></h5><br><h6 class="text-muted">Jumlah orang yang biasa menggunakan IndiHome:</h6>
+                <br><span class="error-input bg-danger text-white text-center"></span>
             </div>
             <div class="col-sm-1">
                 <h2 class="steps"></h2>
@@ -502,13 +511,14 @@ if(form.radiodataprofile === 'jawabB'){
             Lebih dari 10 orang
           </label>
         </div>
-    </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input type="button" name="next" class="next next-b-3 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
         <div class="row sm-12">
             <div class="col-sm-11">
                 <h5 class="fs-title"><p>B. Terlalu Mahal</p></h5><br><h6 class="text-muted">Jumlah perangkat / gadget yang terhubung ke IndiHome:</h6>
+                <br><span class="error-input bg-danger text-white text-center"></span>
             </div>
             <div class="col-sm-1">
                 <h2 class="steps"></h2>
@@ -539,13 +549,14 @@ if(form.radiodataprofile === 'jawabB'){
             Lebih dari 10 perangkat
           </label>
         </div>
-    </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input type="button" name="next" class="next next-b-4 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
     <div class="form-card">
     <div class="row sm-12">
         <div class="col-sm-11">
             <h5 class="fs-title"><p>B. Terlalu Mahal</p></h5><br><h6 class="text-muted">Rencana penggunaan internet selanjutnya menggunakan:</h6>
+            <br><span class="error-input bg-danger text-white text-center"></span>
         </div>
         <div class="col-sm-1">
             <h2 class="steps"></h2>
@@ -589,7 +600,7 @@ if(form.radiodataprofile === 'jawabB'){
         </label>
         <input id="inputIsian" name="profile_b5_lainnya" type="text" class="form-control profile_b5_lainnya" placeholder="Tuliskan alasannya" aria-label="profile_b5_lainnya">
       </div>
-    </div> <br><input id="cekIsianB" type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+    </div> <br><input id="cekIsianB" type="button" name="next" class="next next-b-5 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -614,6 +625,7 @@ if(form.radiodataprofile === 'jawabC'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>C. Pindah Alamat</p></h5><br><h6 class="text-muted">Pindah karena:</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -644,13 +656,14 @@ if(form.radiodataprofile === 'jawabC'){
                 Pulang kampung
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-c-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>C. Pindah Alamat</p></h5><br><h6 class="text-muted">Alamat baru :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -660,13 +673,14 @@ if(form.radiodataprofile === 'jawabC'){
             <div class="form-check">
             <input id="inputIsian" name="profile_c2" type="text" class="form-control profile_c2" placeholder="" aria-label="profile_c2">
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input type="button" name="next" class="next next-c-2 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>C. Pindah Alamat</p></h5><br><h6 class="text-muted">Rencana penggunaan internet di alamat baru :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -707,7 +721,7 @@ if(form.radiodataprofile === 'jawabC'){
                 Paket Data HP
               </label>
             </div>
-        </div> <br><input id="cekIsianC" type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input id="cekIsianC" type="button" name="next" class="next next-c-3 action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -732,6 +746,7 @@ if(form.radiodataprofile === 'jawabD'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>D. Ganti Operator</p></h5><br><h6 class="text-muted">Operator yang digunakan :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -775,13 +790,14 @@ if(form.radiodataprofile === 'jawabD'){
               </label>
               <input id="inputIsian" name="profile_d1_lainnya" type="text" class="form-control profile_d1_lainnya" placeholder="Tuliskan alasannya" aria-label="profile_d1_lainnya">
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-d-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>D. Ganti Operator</p></h5><br><h6 class="text-muted">Paket operator yang digunakan :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -818,13 +834,14 @@ if(form.radiodataprofile === 'jawabD'){
                 700-1.500 ribu
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input type="button" name="next" class="next next-d-2 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>D. Ganti Operator</p></h5><br><h6 class="text-muted">Alasan pindah operator :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -861,7 +878,7 @@ if(form.radiodataprofile === 'jawabD'){
                 Fitur layanan lebih lengkap
               </label>
             </div>
-        </div> <br><input id="cekIsianD" type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input id="cekIsianD" type="button" name="next" class="next next-d-3 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -886,6 +903,7 @@ if(form.radiodataprofile === 'jawabE'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>E. Musibah</p></h5><br><h6 class="text-muted">Jenis musibah :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -922,13 +940,14 @@ if(form.radiodataprofile === 'jawabE'){
                 Mengganggu kehidupan,pembelajaran,/kecanduan internet
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-e-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>E. Musibah</p></h5><br><h6 class="text-muted">Sebelumnya, berapa jumlah orang yang biasa menggunakan IndiHome :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -959,13 +978,14 @@ if(form.radiodataprofile === 'jawabE'){
                 Lebih dari 10 orang
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input type="button" name="next" class="next next-e-2 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>E. Musibah</p></h5><br><h6 class="text-muted">Sebelumnya, berapa jumlah perangkat / gadget yang terhubung ke IndiHome :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -996,7 +1016,7 @@ if(form.radiodataprofile === 'jawabE'){
                 Lebih dari 10 perangkat
               </label>
             </div>
-        </div> <br><input id="cekIsianE" type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input id="cekIsianE" type="button" name="next" class="next next-e-3 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -1020,6 +1040,7 @@ if(form.radiodataprofile === 'jawabF'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>F. Tidak ada yang menggunakan</p></h5><br><h6 class="text-muted">Sebelumnya yang biasa menggunakan IndiHome adalah :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -1056,13 +1077,14 @@ if(form.radiodataprofile === 'jawabF'){
                 Karyawan
               </label>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-f-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>F. Tidak ada yang menggunakan</p></h5><br><h6 class="text-muted">Kondisi saat ini yang biasa menggunakan IndiHome :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -1099,7 +1121,7 @@ if(form.radiodataprofile === 'jawabF'){
                 Sudah mulai kuliah offline
               </label>
             </div>
-        </div> <br><input id="cekIsianF" type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input id="cekIsianF" type="button" name="next" class="next next-f-2 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -1123,6 +1145,7 @@ if(form.radiodataprofile === 'jawabG'){
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>G. Alasan lain</p></h5><br><h6 class="text-muted">Alasan keinginan Cabut:</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -1132,13 +1155,14 @@ if(form.radiodataprofile === 'jawabG'){
             <div class="form-check">
             <textarea  cols="20" rows="5" name="profile_g1" class="text form-control profile_g1" placeholder="" aria-label="profile_g1"></textarea>
             </div>
-        </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" />
+        </div> <br><input type="button" name="next" class="next next-g-1 action-button" value="Lanjut" />
     </fieldset>
     <fieldset>
         <div class="form-card">
             <div class="row sm-12">
                 <div class="col-sm-11">
                     <h5 class="fs-title"><p>G. Alasan lain</p></h5><br><h6 class="text-muted"> Harapan untuk tetap berlangganan :</h6>
+                    <br><span class="error-input bg-danger text-white text-center"></span>
                 </div>
                 <div class="col-sm-1">
                     <h5 class="steps"></h5>
@@ -1148,7 +1172,7 @@ if(form.radiodataprofile === 'jawabG'){
             <div class="form-check">
             <textarea cols="20" rows="5" name="profile_g2" class="text form-control profile_g2" placeholder="" aria-label="profile_g2"></textarea>
             </div>
-        </div> <br><input id="cekIsianG" type="button" name="next" class="next action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+        </div> <br><input id="cekIsianG" type="button" name="next" class="next next-g-2 action-button" value="Lanjut" /><input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
     </fieldset>
     `);
 }
@@ -1167,7 +1191,7 @@ $('#msform').append(`
           </div>
           <!-- PENGECEKAN PENGISIAN FORM PROFILE -->
           <div id="isianDataProfile"></div>
-      </div> <br><input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+      </div> <br><input type="button" style="width:60%;" name="next" class="next next-lanjut action-button" value="Lanjut ke Pilihan" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
   </fieldset>
   <fieldset>
       <div class="form-card">
@@ -1544,7 +1568,806 @@ $('#cekIsianG').click(function(){
 
     setProgressBar(current);
 
-    $(".next").click(function(){
+    var next_a_1 = $('.next-a-1').val();
+    var next_a_2 = $('.next-a-2').val();
+    var next_a_3 = $('.next-a-3').val();
+    var next_a_4 = $('.next-a-4').val();
+    var next_a_5 = $('.next-a-5').val();
+    var next_a_6 = $('.next-a-6').val();
+    var next_b_1 = $('.next-b-1').val();
+    var next_b_2 = $('.next-b-2').val();
+    var next_b_3 = $('.next-b-3').val();
+    var next_b_4 = $('.next-b-4').val();
+    var next_b_5 = $('.next-b-5').val();
+    var next_c_1 = $('.next-c-1').val();
+    var next_c_2 = $('.next-c-2').val();
+    var next_c_3 = $('.next-c-3').val();
+    var next_d_1 = $('.next-d-1').val();
+    var next_d_2 = $('.next-d-2').val();
+    var next_d_3 = $('.next-d-3').val();
+    var next_e_1 = $('.next-e-1').val();
+    var next_e_2 = $('.next-e-2').val();
+    var next_e_3 = $('.next-e-3').val();
+    var next_f_1 = $('.next-f-1').val();
+    var next_f_2 = $('.next-f-2').val();
+    var next_g_1 = $('.next-g-1').val();
+    var next_g_2 = $('.next-g-2').val();
+
+    $('.next-a-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_a1 = $('input[name="radio_profile_a1"]:checked').val();
+      if(next_a_1 == "Lanjut" && radio_profile_a1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-a-2').click(function(){
+      $('.error-input').empty();
+      radio_profile_a2 = $('input[name="radio_profile_a2"]:checked').val()
+      if(next_a_2 == "Lanjut" && radio_profile_a2 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-a-3').click(function(){
+      $('.error-input').empty();
+      radio_profile_a3 = $('input[name="radio_profile_a3"]:checked').val();
+      if(next_a_3 == "Lanjut" && radio_profile_a3 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-a-4').click(function(){
+      $('.error-input').empty();
+      radio_profile_a4 = $('input[name="radio_profile_a4"]:checked').val();
+      if(next_a_4 == "Lanjut" && radio_profile_a4 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-a-5').click(function(){
+      $('.error-input').empty();
+      radio_profile_a5 = $('input[name="radio_profile_a5"]:checked').val();
+      if(next_a_5 == "Lanjut" && radio_profile_a5 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-a-6').click(function(){
+      $('.error-input').empty();
+      radio_profile_a6 = $('input[name="radio_profile_a6"]:checked').val();
+      profile_a6_lainnya = $('.profile_a6_lainnya').val();
+      if(next_a_6 == "Lanjut" && radio_profile_a6 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else if(next_a_6 == "Lanjut" && radio_profile_a6 == "Lainnya" && profile_a6_lainnya == ""){ $('.error-input').append(`<strong>Mohon tuliskan alasan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-b-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_b1 = $('input[name="radio_profile_b1"]:checked').val();
+      if(next_b_1 == "Lanjut" && radio_profile_b1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-b-2').click(function(){
+      $('.error-input').empty();
+      radio_profile_b2 = $('input[name="radio_profile_b2"]:checked').val();
+      if(next_b_2 == "Lanjut" && radio_profile_b2 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-b-3').click(function(){
+      $('.error-input').empty();
+      radio_profile_b3 = $('input[name="radio_profile_b3"]:checked').val();
+      if(next_b_3 == "Lanjut" && radio_profile_b3 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-b-4').click(function(){
+      $('.error-input').empty();
+      radio_profile_b4 = $('input[name="radio_profile_b4"]:checked').val();
+      if(next_b_4 == "Lanjut" && radio_profile_b4 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-b-5').click(function(){
+      $('.error-input').empty();
+      profile_b5_lainnya = $('.profile_b5_lainnya').val();
+      radio_profile_b5 = $('input[name="radio_profile_b5"]:checked').val();
+      if(next_b_5 == "Lanjut" && radio_profile_b5 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else if(next_b_5 == "Lanjut" && radio_profile_b5 == "Lainnya" && profile_b5_lainnya == ""){ $('.error-input').append(`<strong>Mohon tuliskan alasan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-c-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_c1 = $('input[name="radio_profile_c1"]:checked').val();
+      if(next_c_1 == "Lanjut" && radio_profile_c1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-c-2').click(function(){
+      $('.error-input').empty();
+      profile_c2 = $('.profile_c2').val();
+      if(next_c_2 == "Lanjut" && profile_c2 == ""){ $('.error-input').append(`<strong>Mohon tuliskan jawaban Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-c-3').click(function(){
+      $('.error-input').empty();
+      radio_profile_c3 = $('input[name="radio_profile_c3"]:checked').val();
+      if(next_c_3 == "Lanjut" && radio_profile_c3 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-d-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_d1 = $('input[name="radio_profile_d1"]:checked').val();
+      if(next_d_1 == "Lanjut" && radio_profile_d1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-d-2').click(function(){
+      $('.error-input').empty();
+      radio_profile_d2 = $('input[name="radio_profile_d2"]:checked').val();
+      if(next_d_2 == "Lanjut" && radio_profile_d2 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-d-3').click(function(){
+      $('.error-input').empty();
+      radio_profile_d3 = $('input[name="radio_profile_d3"]:checked').val();
+      if(next_d_3 == "Lanjut" && radio_profile_d3 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-e-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_e1 = $('input[name="radio_profile_e1"]:checked').val();
+      if(next_e_1 == "Lanjut" && radio_profile_e1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-e-2').click(function(){
+      $('.error-input').empty();
+      radio_profile_e2 = $('input[name="radio_profile_e2"]:checked').val();
+      if(next_e_2 == "Lanjut" && radio_profile_e2 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-e-3').click(function(){
+      $('.error-input').empty();
+      radio_profile_e3 = $('input[name="radio_profile_e3"]:checked').val();
+      if(next_e_3 == "Lanjut" && radio_profile_e3 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-f-1').click(function(){
+      $('.error-input').empty();
+      radio_profile_f1 = $('input[name="radio_profile_f1"]:checked').val();
+      if(next_f_1 == "Lanjut" && radio_profile_f1 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-f-2').click(function(){
+      $('.error-input').empty();
+      radio_profile_f2 = $('input[name="radio_profile_f2"]:checked').val();
+      if(next_f_2 == "Lanjut" && radio_profile_f2 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-g-1').click(function(){
+      $('.error-input').empty();
+      profile_g1 = $('.profile_g1').val();
+      if(next_g_1 == "Lanjut" && profile_g1 == ""){ $('.error-input').append(`<strong>Mohon tuliskan alasan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $('.next-g-2').click(function(){
+      $('.error-input').empty();
+      profile_g2 = $('.profile_g2').val();
+      if(next_g_2 == "Lanjut" && profile_g2 == ""){ $('.error-input').append(`<strong>Mohon tuliskan alasan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+
+    $('.next-lanjut').click(function(){
+      $('.error-input').empty();
 
       current_fs = $(this).parent();
       next_fs = $(this).parent().next();

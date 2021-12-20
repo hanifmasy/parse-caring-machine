@@ -53,9 +53,9 @@ class CaringFormController extends Controller
 
     public function formCaring2(Request $request){
       // dd($request);
-      $antrian_id = '';
+      $antrian_id = '210';
       $plasa_id = '';
-      $no_antrian = '';
+      $no_antrian = '05';
       $nama_plasa = '';
       $tipe_antrian = '';
       $nama_plggn = '';
@@ -69,44 +69,44 @@ class CaringFormController extends Controller
       $radio_satu_no8 = '';
       $radioDataProfile = '';
       $profile_lainnya = '';
-      if($request->antrian_id){ $antrian_id = $request->antrian_id; }
-      if($request->plasa_id){ $plasa_id = $request->plasa_id; }
-      if($request->no_antrian){ $no_antrian = $request->no_antrian; }
-      if($request->nama_plasa){ $nama_plasa = $request->nama_plasa; }
-      if($request->tipe_antrian){ $tipe_antrian = $request->tipe_antrian; }
-      if($request->nama_plggn){ $nama_plggn = $request->nama_plggn; }
-      if($request->no_ktp){ $no_ktp = $request->no_ktp; }
-      if($request->alamat){ $alamat = $request->alamat; }
-      if($request->no_indihome){ $no_indihome = $request->no_indihome; }
-      if($request->tagihan_indihome){ $tagihan_indihome = $request->tagihan_indihome; }
-      if($request->radio_satu_no6){ $radio_satu_no6 = $request->radio_satu_no6; }
-      if($request->radio_satu_no7){ $radio_satu_no7 = $request->radio_satu_no7; }
-      if($request->pemohon_lainnya_no7){ $pemohon_lainnya_no7 = $request->pemohon_lainnya_no7; }
-      if($request->radio_satu_no8){ $radio_satu_no8 = $request->radio_satu_no8; }
-      if($request->radioDataProfile){ $radioDataProfile = $request->radioDataProfile; }
-      if($request->profile_lainnya){ $profile_lainnya = $request->profile_lainnya; }
+      // if($request->antrian_id){ $antrian_id = $request->antrian_id; }
+      // if($request->plasa_id){ $plasa_id = $request->plasa_id; }
+      // if($request->no_antrian){ $no_antrian = $request->no_antrian; }
+      // if($request->nama_plasa){ $nama_plasa = $request->nama_plasa; }
+      // if($request->tipe_antrian){ $tipe_antrian = $request->tipe_antrian; }
+      // if($request->nama_plggn){ $nama_plggn = $request->nama_plggn; }
+      // if($request->no_ktp){ $no_ktp = $request->no_ktp; }
+      // if($request->alamat){ $alamat = $request->alamat; }
+      // if($request->no_indihome){ $no_indihome = $request->no_indihome; }
+      // if($request->tagihan_indihome){ $tagihan_indihome = $request->tagihan_indihome; }
+      // if($request->radio_satu_no6){ $radio_satu_no6 = $request->radio_satu_no6; }
+      // if($request->radio_satu_no7){ $radio_satu_no7 = $request->radio_satu_no7; }
+      // if($request->pemohon_lainnya_no7){ $pemohon_lainnya_no7 = $request->pemohon_lainnya_no7; }
+      // if($request->radio_satu_no8){ $radio_satu_no8 = $request->radio_satu_no8; }
+      // if($request->radioDataProfile){ $radioDataProfile = $request->radioDataProfile; }
+      // if($request->profile_lainnya){ $profile_lainnya = $request->profile_lainnya; }
 
-      $values = array(
-        'antrian_id'=> $antrian_id,
-        'plasa_id'=> $plasa_id,
-        'no_antrian' => $no_antrian,
-        'nama_plasa' => $nama_plasa,
-        'tipe_antrian' => $tipe_antrian,
-        'nama_plggn' => $nama_plggn,
-        'no_ktp' => $no_ktp,
-        'alamat'=> $alamat,
-        'no_indihome' => $no_indihome,
-        'tagihan_indihome' => $tagihan_indihome,
-        'radio_satu_no6' => $radio_satu_no6,
-        'radio_satu_no7'=> $radio_satu_no7,
-        'pemohon_lainnya_no7'=> $pemohon_lainnya_no7,
-        'radio_satu_no8' => $radio_satu_no8,
-        'radiodataprofile'=> $radioDataProfile,
-        'profile_lainnya' => $profile_lainnya,
-        'created_at'=>now(),
-        'updated_at'=>now(),
-      );
-      DB::connection('pgsql')->table('forms')->insert($values);
+      // $values = array(
+      //   'antrian_id'=> $antrian_id,
+      //   'plasa_id'=> $plasa_id,
+      //   'no_antrian' => $no_antrian,
+      //   'nama_plasa' => $nama_plasa,
+      //   'tipe_antrian' => $tipe_antrian,
+      //   'nama_plggn' => $nama_plggn,
+      //   'no_ktp' => $no_ktp,
+      //   'alamat'=> $alamat,
+      //   'no_indihome' => $no_indihome,
+      //   'tagihan_indihome' => $tagihan_indihome,
+      //   'radio_satu_no6' => $radio_satu_no6,
+      //   'radio_satu_no7'=> $radio_satu_no7,
+      //   'pemohon_lainnya_no7'=> $pemohon_lainnya_no7,
+      //   'radio_satu_no8' => $radio_satu_no8,
+      //   'radiodataprofile'=> $radioDataProfile,
+      //   'profile_lainnya' => $profile_lainnya,
+      //   'created_at'=>now(),
+      //   'updated_at'=>now(),
+      // );
+      // DB::connection('pgsql')->table('forms')->insert($values);
 
       $result = DB::connection('pgsql')->table('forms')->select('*')
       ->where('antrian_id',$antrian_id)->where('no_antrian',$no_antrian)

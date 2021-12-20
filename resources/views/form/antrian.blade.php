@@ -15,6 +15,7 @@
           </div>
           <hr/>
           <div class="card-text text-center">
+            <b>Terima Kasih Sudah Menjadi Pelanggan IndiHome</b><br><br>
             <b>Petunjuk:</b><br> Dapatkan nomor antrian dari mesin antrian Plasa Telkom di tempat.
           </div>
           <br><br>

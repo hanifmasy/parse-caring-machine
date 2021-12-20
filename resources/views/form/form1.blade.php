@@ -68,9 +68,9 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 1 -->
-                                      <p class="text-muted">Nama (sesuai KTP):</p>
+                                      <p class="text-muted">Nama (sesuai KTP):</p><span class="error-input bg-danger text-white text-center"></span>
                                       <input id="inputIsian" name="nama_plggn"  type="text" class="form-control inputNamaPelanggan" placeholder="" aria-label="nama_plggn">
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" />
+                                  </div> <input type="button" name="next" class="next next-1 action-button" value="Lanjut" readonly/>
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -83,9 +83,9 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 2 -->
-                                      <p class="text-muted">Nomor KTP:</p>
-                                      <input id="inputIsian" name="no_ktp"  type="text" class="form-control inputNoKTP" placeholder="" aria-label="no_ktp">
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                      <p class="text-muted">Nomor KTP:</p><span class="error-input bg-danger text-white text-center"></span>
+                                      <input id="inputIsian" name="no_ktp"  type="number" min=0 max=9999999999999999 oninput="validity.valid||(value='');" class="form-control inputNoKTP" placeholder="" aria-label="no_ktp">
+                                  </div> <input type="button" name="next" class="next next-2 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -98,9 +98,9 @@
                                           </div>
                                         </div>
                                       <!-- INPUT NOMOR 3 -->
-                                      <p class="text-muted">Alamat:</p>
+                                      <p class="text-muted">Alamat:</p><span class="error-input bg-danger text-white text-center"></span>
                                       <input id="inputIsian" name="alamat"  type="text" class="form-control inputAlamat" placeholder="" aria-label="alamat">
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input type="button" name="next" class="next next-3 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -113,9 +113,9 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 4 -->
-                                      <p class="text-muted">Nomor IndiHome:</p>
+                                      <p class="text-muted">Nomor IndiHome:</p><span class="error-input bg-danger text-white text-center"></span>
                                       <input id="inputIsian" name="no_indihome"  type="text" class="form-control inputNoIndiHome" placeholder="" aria-label="no_indihome">
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input type="button" name="next" class="next next-4 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -128,9 +128,9 @@
                                           </div>
                                       </div>
                                     <!-- INPUT NOMOR 5 -->
-                                    <p class="text-muted">Tagihan IndiHome:</p>
+                                    <p class="text-muted">Tagihan IndiHome:</p><span class="error-input bg-danger text-white text-center"></span>
                                     <input id="inputIsian" name="tagihan_indihome"  type="text" class="form-control inputTagihan" placeholder="" aria-label="tagihan_indihome">
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input type="button" name="next" class="next next-5 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -143,7 +143,7 @@
                                           </div>
                                       </div>
                                     <!-- INPUT NOMOR 6 -->
-                                    <p class="text-muted">Paket Speed IndiHome:</p>
+                                    <p class="text-muted">Paket Speed IndiHome:</p><span class="error-input bg-danger text-white text-center"></span>
                                     <div class="form-check">
                                       <input class="form-check-input" type="radio" name="radio_satu_no6" id="radio_satu_no6" value="10M">
                                       <label class="form-check-label" for="exampleRadios1">
@@ -180,7 +180,7 @@
                                         100M
                                       </label>
                                     </div>
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input type="button" name="next" class="next next-6 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -193,7 +193,7 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 7 -->
-                                      <p class="text-muted">Hubungan pemohon dengan nomor IndiHome:</p>
+                                      <p class="text-muted">Hubungan pemohon dengan nomor IndiHome:</p><span class="error-input bg-danger text-white text-center"></span>
                                       <div class="form-check">
                                         <input class="form-check-input" type="radio" name="radio_satu_no7" id="radio_satu_no7" value="Pemilik">
                                         <label class="form-check-label" for="exampleRadios1">
@@ -231,7 +231,7 @@
                                         </label>
                                         <input id="inputIsian" name="pemohon_lainnya_no7" type="text" class="form-control pemohon_lainnya_no7" placeholder="Tuliskan alasannya" aria-label="pemohon_lainnya_no7">
                                       </div>
-                                  </div> <input type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input type="button" name="next" class="next next-7 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
@@ -244,7 +244,7 @@
                                           </div>
                                       </div>
                                       <!-- INPUT NOMOR 8 -->
-                                      <p class="text-muted">Alasan mengajukan berhenti berlangganan :</p>
+                                      <p class="text-muted">Alasan mengajukan berhenti berlangganan :</p><span class="error-input bg-danger text-white text-center"></span>
                                       <div class="form-check">
                                         <input class="form-check-input" type="radio" name="radio_satu_no8" id="radio_satu_no8" value="Efisiensi Harga Mahal">
                                         <label class="form-check-label" for="exampleRadios1">
@@ -281,7 +281,7 @@
                                           Sudah Punya IndiHome Baru
                                         </label>
                                       </div>
-                                  </div> <input id="inputIsianDataPemohon" type="button" name="next" class="next action-button" value="Lanjut" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input id="inputIsianDataPemohon" type="button" name="next" class="next next-8 action-button" value="Lanjut" readonly/> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                               <fieldset class="fieldset_isianpemohon">
                                   <div class="form-card">
@@ -298,7 +298,7 @@
                                       <div id="isianDataPemohon">
 
                                       </div>
-                                  </div> <input id="btnLanjutProfile" style="width:60%" type="button" name="next" class="next action-button" value="Lanjut ke Data Profile" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
+                                  </div> <input style="width:60%" type="button" name="next" class="next next-lanjut-profile action-button" value="Lanjut ke Data Profile" /> <input type="button" name="previous" class="previous action-button-previous" value="Kembali" />
                               </fieldset>
                             <fieldset class="fieldset_dataprofile">
                                 <div class="form-card">
@@ -313,7 +313,7 @@
                                     <!-- INPUT PERTANYAAN DATA PROFILE A s.d. G -->
                                     <p class="text-muted">Penyebab Anda berhenti berlangganan:</p>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabA">
+                                      <input class="form-check-input" type="radio" name="radioDataProfile" id="radioDataProfile" value="jawabA" required>
                                       <label class="form-check-label" for="exampleRadios1">
                                         A. Sering Gangguan
                                       </label>
@@ -381,6 +381,7 @@ $('#radio_satu_no7').prop("checked",false);
 $('.pemohon_lainnya_no7').val('');
 $('#radio_satu_no8').prop("checked",false);
 $('#isianDataPemohon').empty();
+$('#radioDataProfile').prop("checked",false);
 
 $('#plasa_telkom').empty();
 $('#nomor_antrian').empty();
@@ -414,6 +415,7 @@ var arrDataProfile = [];
 $(document).ready(function(){
 
     $('#inputIsianDataPemohon').click(function(){
+    // function inputIsianDataPemohon(){
         $('#isianDataPemohon').empty();
         nama_plggn = $('.inputNamaPelanggan').val();
         no_ktp = $('.inputNoKTP').val();
@@ -554,6 +556,7 @@ $(document).ready(function(){
                   <br>
                 `);
           }
+      // }
     });
 
     // $('#btnLanjutProfile').click(function(){
@@ -569,32 +572,306 @@ $(document).ready(function(){
 
     setProgressBar(current);
 
-    $(".next").click(function(){
+    var next_1 = $('.next-1').val();
+    var next_2 = $('.next-2').val();
+    var next_3 = $('.next-3').val();
+    var next_4 = $('.next-4').val();
+    var next_5 = $('.next-5').val();
+    var next_6 = $('.next-6').val();
+    var next_7 = $('.next-7').val();
+    var next_8 = $('.next-8').val();
 
-      current_fs = $(this).parent();
-      next_fs = $(this).parent().next();
+    $(".next-1").click(function(){
 
-      //Add Class Active
-      $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+      $('.error-input').empty();
+      nama_plggn = $('.inputNamaPelanggan').val();
+      if(next_1 == "Lanjut" && nama_plggn == ""){ $('.error-input').append(`<strong>Mohon inputkan Nama Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
 
-      //show the next fieldset
-      next_fs.show();
-      //hide the current fieldset with style
-      current_fs.animate({opacity: 0}, {
-        step: function(now) {
-          // for making fielset appear animation
-          opacity = 1 - now;
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
 
-          current_fs.css({
-            'display': 'none',
-            'position': 'relative'
-          });
-          next_fs.css({'opacity': opacity});
-        },
-        duration: 500
-      });
-      setProgressBar(++current);
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
     });
+
+    $(".next-2").click(function(){
+
+      $('.error-input').empty();
+      no_ktp = $('.inputNoKTP').val();
+      if(next_2 == "Lanjut" && no_ktp == ""){ $('.error-input').append(`<strong>Mohon inputkan No. KTP Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+
+    $(".next-3").click(function(){
+      $('.error-input').empty();
+      alamat = $('.inputAlamat').val();
+      if(next_3 == "Lanjut" && alamat == ""){ $('.error-input').append(`<strong>Mohon inputkan alamat Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $(".next-4").click(function(){
+      $('.error-input').empty();
+      no_indihome = $('.inputNoIndiHome').val();
+      if(next_4 == "Lanjut" && no_indihome == ""){ $('.error-input').append(`<strong>Mohon inputkan No. IndiHome Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $(".next-5").click(function(){
+      $('.error-input').empty();
+      tagihan = $('.inputTagihan').val();
+      if(next_5 == "Lanjut" && tagihan == ""){ $('.error-input').append(`<strong>Mohon inputkan tagihan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $(".next-6").click(function(){
+      $('.error-input').empty();
+      radio_satu_no6 = $('input[name="radio_satu_no6"]:checked').val();
+      if(next_6 == "Lanjut" && radio_satu_no6 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $(".next-7").click(function(){
+      $('.error-input').empty();
+      radio_satu_no7 = $('input[name="radio_satu_no7"]:checked').val(); if(radio_satu_no7 === 'Lainnya'){ pemohon_lainnya_no7 = $('.pemohon_lainnya_no7').val(); }
+      if(next_7 == "Lanjut" && radio_satu_no7 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else if(next_7 == "Lanjut" && radio_satu_no7 == "Lainnya" && pemohon_lainnya_no7 == ""){ $('.error-input').append(`<strong>Mohon inputkan alasan Anda.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+    $(".next-8").click(function(){
+      $('.error-input').empty();
+      radio_satu_no8 = $('input[name="radio_satu_no8"]:checked').val();
+      if(next_8 == "Lanjut" && radio_satu_no8 == undefined){ $('.error-input').append(`<strong>Mohon pilih satu jawaban.</strong>`); }
+      else   {
+                 $('.error-input').append("");
+
+                 current_fs = $(this).parent();
+                 next_fs = $(this).parent().next();
+
+                 //Add Class Active
+                 $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                 //show the next fieldset
+                 next_fs.show();
+                 //hide the current fieldset with style
+                 current_fs.animate({opacity: 0}, {
+                   step: function(now) {
+                     // for making fielset appear animation
+                     opacity = 1 - now;
+
+                     current_fs.css({
+                       'display': 'none',
+                       'position': 'relative'
+                     });
+                     next_fs.css({'opacity': opacity});
+                   },
+                   duration: 500
+                 });
+                 setProgressBar(++current);
+              }
+    });
+
+    $(".next-lanjut-profile").click(function(){
+              $('.error-input').empty();
+              $('.error-input').append("");
+
+              current_fs = $(this).parent();
+              next_fs = $(this).parent().next();
+
+              //Add Class Active
+              $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+              //show the next fieldset
+              next_fs.show();
+              //hide the current fieldset with style
+              current_fs.animate({opacity: 0}, {
+               step: function(now) {
+                 // for making fielset appear animation
+                 opacity = 1 - now;
+
+                 current_fs.css({
+                   'display': 'none',
+                   'position': 'relative'
+                 });
+                 next_fs.css({'opacity': opacity});
+               },
+               duration: 500
+             });
+             setProgressBar(++current);
+    });
+
 
     $(".previous").click(function(){
 
