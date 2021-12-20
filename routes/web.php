@@ -26,8 +26,8 @@ Route::post('/antrian',[CaringFormController::class,'index'])->name('caring.antr
 Route::post('/form/1',[CaringFormController::class,'formCaring1'])->name('caring.form.one');
 
 // DATA PROFILE
-Route::get('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
-// Route::post('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
+// Route::get('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
+Route::post('/form/2',[CaringFormController::class,'formCaring2'])->name('caring.form.two');
 
 // PAGE HASIL
 // Route::get('/form/submit',[CaringFormController::class,'formCaringSubmit'])->name('caring.form.submit');
